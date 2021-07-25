@@ -106,6 +106,7 @@ It should look something like this:
 
 <br/>
 Set the generated token as your cookie, and make a request to the server. You should see the flag at the top of the screen.
+
 ```
 HTB{your_JWTS_4r3_cl41m3d!!}
 ```
