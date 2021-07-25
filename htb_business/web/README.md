@@ -101,7 +101,7 @@ Next replace the values `n` and `e` in the `jwks.json` file we downloaded, and u
 Finnally we need to modify our jwt token. On [jwt.io](https://jwt.io) add the decoded header, and payload that we got from the original jwt token. Change the `jku` value to point to your domain, and add your public and private key at the bottom.
 
 It should look something like this:
-[picture of jwt.io](https://github.com/team0001-ctf/ctf-writups/blob/master/htb_business/web/screenshot.png)
+[picture of jwt.io](https://raw.githubusercontent.com/team0001-ctf/ctf-writups/master/htb_business/web/screenshot.png)
 
 
 <br/>
