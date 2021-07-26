@@ -1,0 +1,16 @@
+service challenge
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = root
+    type        = UNLISTED
+    port        = 1337
+    bind        = 0.0.0.0
+    server      = /usr/sbin/chroot 
+    server_args = --userspec=1000:1000 /home/deck_of_vulns ./deck_of_vulns
+    banner_fail = /etc/banner_fail
+    # safety options
+    per_source	= 10 # the maximum instances of this service per source IP address
+}
