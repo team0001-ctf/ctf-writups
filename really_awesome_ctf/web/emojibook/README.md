@@ -2,7 +2,7 @@
 # RACTF: emojibook 1 writeup. SSTI in custom template implementation.
 
 
-# Table of contents
+## Table of contents
 - Setup
 - the bug
 - Exploiting emojibook 1
