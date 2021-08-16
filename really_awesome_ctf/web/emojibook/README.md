@@ -35,7 +35,7 @@ After looking through the sources that they provided in emojibook1, I came acros
  12       return render(request, "note.html", {"note": note, "text": text})
 ```
 
-On line 5 you can see that it is looking for `{{ expression }}` in the note. This immediately looks like some sort of custom templating for creating the html. We can also see later on that it tries to find a file name inside the template, reads and encodes it with base64 and returns it as an image.
+On line 5 you can see that it is looking for `{{ expression }}` in the note. This immediately looks like some sort of custom templating server-side rendered html. We can also see later on that it tries to find a file name inside the template, reads and encodes it with base64 and returns it as an image.
 
 This sounds like a recipie for an arbitrary read. Obviously its not as simple as just creating a note with `{{/flag.txt}}` because `{{` simbols get filtered somewhere else in code.
 
