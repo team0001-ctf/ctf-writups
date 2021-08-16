@@ -13,7 +13,7 @@
 
 The webapp has 4 main functions: login, register, new note, home. It is important to create an account **and** login otherwise the app doesnt work.
 
-Under the "new note" tab you can create a a note, that can later be viewed on the home tab. In your notes you can add emojis with :emoji\_name:
+Under the "new note" tab you can create a note, that can later be viewed on the home tab. In your notes you can add emojis with :emoji\_name:
 
 
 
