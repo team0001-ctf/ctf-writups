@@ -8,9 +8,6 @@
 - Exploiting emojibook 1
 
 
-## description
-
-
 
 ## setup
 
